@@ -1,1 +1,296 @@
+Module VBModule
 
+Private Sub btnMessage_Click(ByVal sender As System.Object, _
+                                 ByVal e As System.EventArgs) _
+                                 Handles btnMessage.Click
+        MsgBox("Are you ready to provide your score?", _
+               MsgBoxStyle.YesNoCancel Or MsgBoxStyle.Question, _
+               "Scorecard Client")
+
+Public Class Form1
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim result = CustomMessageBox.Show(
+            {"one", "two", "three", "four", "five", "six", "seven", "eight"},
+            "What was your score?",
+            "Scorecard Client")
+        MessageBox.Show(result)
+
+        Dim h1 as Integer = console.readline()
+
+        btnMessage_Click(ByVal sender As System.Object, _
+                                 ByVal e As System.EventArgs) _
+                                 Handles btnMessage.Click
+        MsgBox("Are you ready to provide your score?", _
+               MsgBoxStyle.YesNoCancel Or MsgBoxStyle.Question, _
+               "Scorecard Client")
+
+        Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim result = CustomMessageBox.Show(
+            {"one", "two", "three", "four", "five", "six", "seven", "eight"},
+            "What was your score?",
+            "Scorecard Client")
+        MessageBox.Show(result)
+        Dim h2 as Integer = console.readline()
+
+        btnMessage_Click(ByVal sender As System.Object, _
+                                 ByVal e As System.EventArgs) _
+                                 Handles btnMessage.Click
+        MsgBox("Are you ready to provide your score?", _
+               MsgBoxStyle.YesNoCancel Or MsgBoxStyle.Question, _
+               "Scorecard Client")
+
+        Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim result = CustomMessageBox.Show(
+            {"one", "two", "three", "four", "five", "six", "seven", "eight"},
+            "What was your score?",
+            "Scorecard Client")
+        MessageBox.Show(result)
+        Dim h3 as Integer = console.readline()
+        btnMessage_Click(ByVal sender As System.Object, _
+                                 ByVal e As System.EventArgs) _
+                                 Handles btnMessage.Click
+        MsgBox("Are you ready to provide your score?", _
+               MsgBoxStyle.YesNoCancel Or MsgBoxStyle.Question, _
+               "Scorecard Client")
+
+        Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim result = CustomMessageBox.Show(
+            {"one", "two", "three", "four", "five", "six", "seven", "eight"},
+            "What was your score?",
+            "Scorecard Client")
+        MessageBox.Show(result)
+        Dim h4 as Integer = console.readline()
+        btnMessage_Click(ByVal sender As System.Object, _
+                                 ByVal e As System.EventArgs) _
+                                 Handles btnMessage.Click
+        MsgBox("Are you ready to provide your score?", _
+               MsgBoxStyle.YesNoCancel Or MsgBoxStyle.Question, _
+               "Scorecard Client")
+
+        Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim result = CustomMessageBox.Show(
+            {"one", "two", "three", "four", "five", "six", "seven", "eight"},
+            "What was your score?",
+            "Scorecard Client")
+        MessageBox.Show(result)
+        Dim h5 as Integer = console.readline()
+        btnMessage_Click(ByVal sender As System.Object, _
+                                 ByVal e As System.EventArgs) _
+                                 Handles btnMessage.Click
+        MsgBox("Are you ready to provide your score?", _
+               MsgBoxStyle.YesNoCancel Or MsgBoxStyle.Question, _
+               "Scorecard Client")
+
+        Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim result = CustomMessageBox.Show(
+            {"one", "two", "three", "four", "five", "six", "seven", "eight"},
+            "What was your score?",
+            "Scorecard Client")
+        MessageBox.Show(result)
+        Dim h6 as Integer = console.readline()
+        btnMessage_Click(ByVal sender As System.Object, _
+                                 ByVal e As System.EventArgs) _
+                                 Handles btnMessage.Click
+        MsgBox("Are you ready to provide your score?", _
+               MsgBoxStyle.YesNoCancel Or MsgBoxStyle.Question, _
+               "Scorecard Client")
+
+        Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim result = CustomMessageBox.Show(
+            {"one", "two", "three", "four", "five", "six", "seven", "eight"},
+            "What was your score?",
+            "Scorecard Client")
+        MessageBox.Show(result)
+        Dim h7 as Integer = console.readline()
+        btnMessage_Click(ByVal sender As System.Object, _
+                                 ByVal e As System.EventArgs) _
+                                 Handles btnMessage.Click
+        MsgBox("Are you ready to provide your score?", _
+               MsgBoxStyle.YesNoCancel Or MsgBoxStyle.Question, _
+               "Scorecard Client")
+
+        Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim result = CustomMessageBox.Show(
+            {"one", "two", "three", "four", "five", "six", "seven", "eight"},
+            "What was your score?",
+            "Scorecard Client")
+        MessageBox.Show(result)
+        Dim h8 as Integer = console.readline()
+
+        btnMessage_Click(ByVal sender As System.Object, _
+                                 ByVal e As System.EventArgs) _
+                                 Handles btnMessage.Click
+        MsgBox("Are you ready to provide your score?", _
+               MsgBoxStyle.YesNoCancel Or MsgBoxStyle.Question, _
+               "Scorecard Client")
+
+        Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim result = CustomMessageBox.Show(
+            {"one", "two", "three", "four", "five", "six", "seven", "eight"},
+            "What was your score?",
+            "Scorecard Client")
+        MessageBox.Show(result)
+        Dim h8 as Integer = console.readline()
+        btnMessage_Click(ByVal sender As System.Object, _
+                                 ByVal e As System.EventArgs) _
+                                 Handles btnMessage.Click
+        MsgBox("Are you ready to provide your score?", _
+               MsgBoxStyle.YesNoCancel Or MsgBoxStyle.Question, _
+               "Scorecard Client")
+
+        Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim result = CustomMessageBox.Show(
+            {"one", "two", "three", "four", "five", "six", "seven", "eight"},
+            "What was your score?",
+            "Scorecard Client")
+        MessageBox.Show(result)
+        Dim h9 as Integer = console.readline()
+        btnMessage_Click(ByVal sender As System.Object, _
+                                 ByVal e As System.EventArgs) _
+                                 Handles btnMessage.Click
+        MsgBox("Are you ready to provide your score?", _
+               MsgBoxStyle.YesNoCancel Or MsgBoxStyle.Question, _
+               "Scorecard Client")
+
+        Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim result = CustomMessageBox.Show(
+            {"one", "two", "three", "four", "five", "six", "seven", "eight"},
+            "What was your score?",
+            "Scorecard Client")
+        MessageBox.Show(result)
+        Dim h10 as Integer = console.readline()
+
+        btnMessage_Click(ByVal sender As System.Object, _
+                                 ByVal e As System.EventArgs) _
+                                 Handles btnMessage.Click
+        MsgBox("Are you ready to provide your score?", _
+               MsgBoxStyle.YesNoCancel Or MsgBoxStyle.Question, _
+               "Scorecard Client")
+
+        Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim result = CustomMessageBox.Show(
+            {"one", "two", "three", "four", "five", "six", "seven", "eight"},
+            "What was your score?",
+            "Scorecard Client")
+        MessageBox.Show(result)
+        Dim h11 as Integer = console.readline()
+
+        btnMessage_Click(ByVal sender As System.Object, _
+                                 ByVal e As System.EventArgs) _
+                                 Handles btnMessage.Click
+        MsgBox("Are you ready to provide your score?", _
+               MsgBoxStyle.YesNoCancel Or MsgBoxStyle.Question, _
+               "Scorecard Client")
+
+        Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim result = CustomMessageBox.Show(
+            {"one", "two", "three", "four", "five", "six", "seven", "eight"},
+            "What was your score?",
+            "Scorecard Client")
+        MessageBox.Show(result)
+        Dim h12 as Integer = console.readline()
+
+        btnMessage_Click(ByVal sender As System.Object, _
+                                 ByVal e As System.EventArgs) _
+                                 Handles btnMessage.Click
+        MsgBox("Are you ready to provide your score?", _
+               MsgBoxStyle.YesNoCancel Or MsgBoxStyle.Question, _
+               "Scorecard Client")
+
+        Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim result = CustomMessageBox.Show(
+            {"one", "two", "three", "four", "five", "six", "seven", "eight"},
+            "What was your score?",
+            "Scorecard Client")
+        MessageBox.Show(result)
+        Dim h13 as Integer = console.readline()
+
+        btnMessage_Click(ByVal sender As System.Object, _
+                                 ByVal e As System.EventArgs) _
+                                 Handles btnMessage.Click
+        MsgBox("Are you ready to provide your score?", _
+               MsgBoxStyle.YesNoCancel Or MsgBoxStyle.Question, _
+               "Scorecard Client")
+
+        Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim result = CustomMessageBox.Show(
+            {"one", "two", "three", "four", "five", "six", "seven", "eight"},
+            "What was your score?",
+            "Scorecard Client")
+        MessageBox.Show(result)
+        Dim h14 as Integer = console.readline()
+
+        btnMessage_Click(ByVal sender As System.Object, _
+                                 ByVal e As System.EventArgs) _
+                                 Handles btnMessage.Click
+        MsgBox("Are you ready to provide your score?", _
+               MsgBoxStyle.YesNoCancel Or MsgBoxStyle.Question, _
+               "Scorecard Client")
+
+        Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim result = CustomMessageBox.Show(
+            {"one", "two", "three", "four", "five", "six", "seven", "eight"},
+            "What was your score?",
+            "Scorecard Client")
+        MessageBox.Show(result)
+        Dim h15 as Integer = console.readline()
+
+        btnMessage_Click(ByVal sender As System.Object, _
+                                 ByVal e As System.EventArgs) _
+                                 Handles btnMessage.Click
+        MsgBox("Are you ready to provide your score?", _
+               MsgBoxStyle.YesNoCancel Or MsgBoxStyle.Question, _
+               "Scorecard Client")
+
+        Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim result = CustomMessageBox.Show(
+            {"one", "two", "three", "four", "five", "six", "seven", "eight"},
+            "What was your score?",
+            "Scorecard Client")
+        MessageBox.Show(result)
+        Dim h16 as Integer = console.readline()
+
+        btnMessage_Click(ByVal sender As System.Object, _
+                                 ByVal e As System.EventArgs) _
+                                 Handles btnMessage.Click
+        MsgBox("Are you ready to provide your score?", _
+               MsgBoxStyle.YesNoCancel Or MsgBoxStyle.Question, _
+               "Scorecard Client")
+
+        Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim result = CustomMessageBox.Show(
+            {"one", "two", "three", "four", "five", "six", "seven", "eight"},
+            "What was your score?",
+            "Scorecard Client")
+        MessageBox.Show(result)
+        Dim h17 as Integer = console.readline()
+
+        btnMessage_Click(ByVal sender As System.Object, _
+                                 ByVal e As System.EventArgs) _
+                                 Handles btnMessage.Click
+        MsgBox("Are you ready to provide your score?", _
+               MsgBoxStyle.YesNoCancel Or MsgBoxStyle.Question, _
+               "Scorecard Client")
+
+        Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim result = CustomMessageBox.Show(
+            {"one", "two", "three", "four", "five", "six", "seven", "eight"},
+            "What was your score?",
+            "Scorecard Client")
+        MessageBox.Show(result)
+        Dim h18 as Integer = console.readline()
+
+        Dim compScore As Integer = h1+h2+h3+h4+h5+h6+h7+h8+h9+h10+h11+h12+h13+h14+h15+h16+h17+h18
+        Console.writeLine("Your score is " & compScore & ".")
+        Console.writeLine(vbLf)
+        If compScore > 84 Then
+            Console.writeline(vbLf)
+            Console.writeLine("Better Luck next time!")
+        Else
+            Console.writeline(vbLf)
+            Console.writeLine("Congrats!")
+        End If
+      End Sub
+    End Class
+  End Sub
+End Module
